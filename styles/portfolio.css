@@ -94,10 +94,14 @@ main{
     max-width: 1140px;
     margin: 130px auto;
 }
+main section{
+    margin: 130px 0;
+}
 /* about style */
 .about{
      border: 1px solid black;
      width: 827px;
+     margin: 0 150px;
 }
 .items{
      display: flex;
@@ -111,7 +115,22 @@ main{
 .item-heading{
     font-weight: normal;
     margin: 10px 0;
+    color: #757575;
 }
 .item-discription{
      margin: 0; 
+      
+}
+/* skill section style */
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.2);
+}
+.skill img{
+    margin-bottom:50px ;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
 }
