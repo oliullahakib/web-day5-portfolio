@@ -165,3 +165,21 @@ main section{
 .dwonlodcv-btn{
     margin-top: 50px;
 }
+
+/* footer secto style */
+footer{
+    padding: 200px 230px;
+    display: flex;
+    gap:100px;
+}
+footer input[type="text"], input[type="email"],textarea{
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+textarea{
+    height: 130px;
+}
